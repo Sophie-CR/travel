@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #75b9fc;
+  --secondary-color: #737b45;
+  --primary-accent-color: #705c4d;
+  --light-color: #f5fcfe;
+  --dark-color: #111716;
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Roboto Serif", serif;
+  --radius: 5px;
+  --shadow: 2px 5px 8px rgb(0, 0, 0, 0.3);
+  --transition: 200ms;
+}
+body {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  font-family: var(--font-body);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: var(--font-heading);
+}
+img {
+  border-radius: var(--radius);
+}
+a:hover {
+  transition-duration: var(--transition);
+}
+.hero {
+  background: url(/images/suffolk-framlingham.jpg) center no-repeat;
+  color: var(--dark-color);
+  padding-top: 60px;
+  padding-bottom: 400px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 40pt;
+  line-height: 60pt;
+}
+.hero p {
+  font-size: 16pt;
+  line-height: 24pt;
+}
+.hero-btn {
+  background-color: var(--secondary-color);
+  box-shadow: var(--shadow);
+  color: var(--dark-color);
+  padding: 10px 20px;
+}
+.hero-btn:hover {
+  background-color: var(--primary-accent-color);
+  color: var(--light-color);
+  transition-duration: var(--transition);
+}
+.square-photos-row {
+  text-align: center;
+}
+.square-photo {
+  max-height: 150px;
+  width: auto;
+  margin-top: 5px;
+}
