@@ -30,16 +30,21 @@ img {
 a:hover {
   transition-duration: var(--transition);
 }
+.navbar {
+  opacity: 0.9;
+}
 .hero {
   background: url(/images/suffolk-framlingham.jpg) center no-repeat;
   color: var(--dark-color);
   padding-top: 60px;
   padding-bottom: 400px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 }
 .hero h1 {
   font-size: 40pt;
-  line-height: 60pt;
+  line-height: 1.5;
 }
 .hero p {
   font-size: 16pt;
@@ -63,4 +68,15 @@ a:hover {
   max-height: 167px;
   width: auto;
   margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background: url(/images/suffolk-framlingham-2.jpg) center no-repeat;
+    padding-top: 90px;
+    padding-bottom: 325px;
+  }
+  .hero-btn {
+    margin-top: 0px;
+  }
 }
