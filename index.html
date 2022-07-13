@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Blog</title>
+    <title>Travel Blog | Sophie Rosenberg</title>
     <meta
       name="Travel Blog | Sophie Rosenberg"
       content="This is a page of photos and information about places Sophie has travelled."
@@ -31,6 +31,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/css/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
@@ -78,10 +83,10 @@
                 <li><a class="dropdown-item" href="#">Suffolk</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Croatia</a>
+                  <a class="dropdown-item" href="#">Florida</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Florida</a>
+                  <a class="dropdown-item" href="#">Croatia</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">Estonia</a>
@@ -140,129 +145,130 @@
           />
         </div>
       </div>
-    </div>
-    <div class="container blurbs">
-      <div class="row mb-5 place">
-        <div class="col-md description">
-          <div class="description-content">
-            <h2 class="place-heading">London</h2>
-            <p>
-              The city that I am now proud to call my home! London has so much
-              to offer with loads of live shows, pubs, and restaurants. It also
-              has plenty of natural retreats in the form of parks, heaths, and
-              reserves. Check out what I've discovered so far.
-            </p>
-            <a href="#"
-              ><button class="btn btn-see-more">Learn more ➡</button></a
-            >
+
+      <div class="blurbs">
+        <div class="row mb-5 place">
+          <div class="col-md description">
+            <div class="description-content">
+              <h2 class="place-heading">London</h2>
+              <p>
+                The city that I am now proud to call my home! London has so much
+                to offer with loads of live shows, pubs, and restaurants. It
+                also has plenty of natural retreats in the form of parks,
+                heaths, and reserves. Check out what I've discovered so far.
+              </p>
+              <a href="#" title="Learn more about London"
+                ><button class="btn btn-see-more">Learn more ➡</button></a
+              >
+            </div>
+          </div>
+          <div class="col-md place-picture">
+            <img
+              src="/images/london-palace-of-westminster.jpg"
+              alt="Putney Bridge"
+              class="img-fluid"
+            />
           </div>
         </div>
-        <div class="col-md place-picture">
-          <img
-            src="/images/london-palace-of-westminster.jpg"
-            alt="Putney Bridge"
-            class="img-fluid"
-          />
+        <div class="row mb-5 place">
+          <div class="col-md place-picture">
+            <img
+              src="/images/suffolk-trimley-marshes-01.jpg"
+              alt="Trimley Marshes"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md description">
+            <div class="description-content">
+              <h2 class="place-heading">Suffolk</h2>
+              <p>
+                I grew up in Suffolk and will always consider it home. The
+                county is blessed with historic market towns, breath-taking
+                coast, and Areas of Outstanding Natural Beauty. Let me introduce
+                you to the best county in England!
+              </p>
+              <a href="#" title="Learn more about Suffolk"
+                ><button class="btn btn-see-more">Learn more ➡</button></a
+              >
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row mb-5 place">
-        <div class="col-md place-picture">
-          <img
-            src="/images/suffolk-trimley-marshes-01.jpg"
-            alt="Trimley Marshes"
-            class="img-fluid"
-          />
+        <div class="row mb-5 place">
+          <div class="col-md description">
+            <div class="description-content">
+              <h2 class="place-heading">Florida</h2>
+              <p>
+                The great state of Florida is where my husband is from, and it's
+                a joy to visit regularly. The state is a microcosm of America
+                and has everything from bustling metropolises to natural
+                reserves. Find out more about the sunshine state!
+              </p>
+              <a href="#" title="Learn more about Florida"
+                ><button class="btn btn-see-more">Learn more ➡</button></a
+              >
+            </div>
+          </div>
+          <div class="col-md place-picture">
+            <img
+              src="/images/fl-clearwater-beach-sandy.jpg"
+              alt="Clearwater Beach, Florida"
+              class="img-fluid"
+            />
+          </div>
         </div>
-        <div class="col-md description">
-          <div class="description-content">
-            <h2 class="place-heading">Suffolk</h2>
-            <p>
-              I grew up in Suffolk and will always consider it home. The county
-              is blessed with historic market towns, breath-taking coast, and
-              Areas of Outstanding Natural Beauty. Let me introduce you to the
-              best county in England!
-            </p>
-            <a href="#"
-              ><button class="btn btn-see-more">Learn more ➡</button></a
-            >
+        <div class="row mb-5 place">
+          <div class="col-md place-picture">
+            <img
+              src="/images/croatia-split-gregory.jpg"
+              alt="Old Town Split, Croatia"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col description">
+            <div class="description-content">
+              <h2 class="place-heading">Croatia</h2>
+              <p>
+                Croatia is a picturesque country on the Mediterranean, with
+                fascinating history to explore. I have been lucky enough to
+                visit Split, Zadar, and Plitvice Lakes. Find out more about this
+                beautiful country below.
+              </p>
+              <a href="#" title="Learn more about Croatia"
+                ><button class="btn btn-see-more">Learn more ➡</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5 place">
+          <div class="col-md description">
+            <div class="description-content">
+              <h2 class="place-heading">Estonia</h2>
+              <p>
+                This is my next trip! I will be exploring the capital Tallinn
+                and the island of Saaremaa, and I can't wait.
+              </p>
+              <a href="#" title="Learn more about Estonia"
+                ><button class="btn btn-see-more">Learn more ➡</button></a
+              >
+            </div>
+          </div>
+          <div class="col-md place-picture">
+            <img
+              src="/images/estonia-tallinn-aerial.jpg"
+              alt="Tallinn, Estonia, from the air"
+              class="img-fluid"
+            />
           </div>
         </div>
       </div>
-      <div class="row mb-5 place">
-        <div class="col-md description">
-          <div class="description-content">
-            <h2 class="place-heading">Florida</h2>
-            <p>
-              The great state of Florida is where my husband is from, and it's a
-              joy to visit regularly. The state is a microcosm of America and
-              has everything from bustling metropolises to natural reserves.
-              Find out more about the sunshine state!
-            </p>
-            <a href="#"
-              ><button class="btn btn-see-more">Learn more ➡</button></a
-            >
-          </div>
-        </div>
-        <div class="col-md place-picture">
-          <img
-            src="/images/fl-clearwater-beach-sandy.jpg"
-            alt="Clearwater Beach, Florida"
-            class="img-fluid"
-          />
-        </div>
+      <div class="footer pt-5 pb-5">
+        <a
+          href="https://github.com/Sophie-CR/travel"
+          title="Link to the code on GitHub"
+          >Open Source Code</a
+        >
+        by Sophie Rosenberg
       </div>
-      <div class="row mb-5 place">
-        <div class="col-md place-picture">
-          <img
-            src="/images/croatia-split-gregory.jpg"
-            alt="Old Town Split, Croatia"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col description">
-          <div class="description-content">
-            <h2 class="place-heading">Croatia</h2>
-            <p>
-              Croatia is a picturesque country on the Mediterranean, with
-              fascinating history to explore. I have been lucky enough to visit
-              Split, Zadar, and Plitvice Lakes. Find out more about this
-              beautiful country below.
-            </p>
-            <a href="#"
-              ><button class="btn btn-see-more">Learn more ➡</button></a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="row mb-5 place">
-        <div class="col-md description">
-          <div class="description-content">
-            <h2 class="place-heading">Estonia</h2>
-            <p>
-              This is my next trip! I will be exploring the capital Tallinn and
-              the island of Saaremaa, and I can't wait.
-            </p>
-            <a href="#"
-              ><button class="btn btn-see-more">Learn more ➡</button></a
-            >
-          </div>
-        </div>
-        <div class="col-md place-picture">
-          <img
-            src="/images/estonia-tallinn-aerial.jpg"
-            alt="Tallinn, Estonia, from the air"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="footer p-5">
-      <a
-        href="https://github.com/Sophie-CR/travel"
-        title="Link to the code on GitHub"
-        >Open Source Code</a
-      >
-      by Sophie Rosenberg
     </div>
   </body>
 </html>

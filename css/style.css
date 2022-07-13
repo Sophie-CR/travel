@@ -2,7 +2,7 @@
   --primary-color: #75b9fc;
   --secondary-color: #737b45;
   --primary-accent-color: #705c4d;
-  --light-color: #f5fcfe;
+  --light-color: #eff3f9;
   --dark-color: #111716;
   --font-heading: "Poppins", sans-serif;
   --font-body: "Roboto Serif", serif;
@@ -21,7 +21,8 @@ h3,
 h4,
 h5,
 h6,
-button {
+button,
+.nav-link {
   font-family: var(--font-heading);
 }
 img {
@@ -32,6 +33,9 @@ a:hover {
 }
 .navbar {
   opacity: 0.9;
+}
+.dropdown-menu {
+  background-color: var(--light-color);
 }
 .hero {
   background: url(/images/suffolk-framlingham.jpg) center no-repeat;
