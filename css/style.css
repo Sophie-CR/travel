@@ -6,7 +6,7 @@
   --dark-color: #111716;
   --font-heading: "Poppins", sans-serif;
   --font-body: "Roboto Serif", serif;
-  --radius: 10px;
+  --radius: 15px;
   --shadow: 2px 5px 8px rgb(0, 0, 0, 0.3);
   --transition: 200ms;
 }
@@ -25,7 +25,8 @@ button,
 .nav-link {
   font-family: var(--font-heading);
 }
-img {
+img,
+.btn {
   border-radius: var(--radius);
 }
 a:hover {
@@ -95,6 +96,23 @@ a:hover {
   color: var(--light-color);
   transition-duration: var(--transition);
 }
+.footer {
+  background-color: #75b9fc;
+  border-radius: var(--radius);
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  padding: 20px 40px;
+  max-width: fit-content;
+  text-align: center;
+}
+.footer-link {
+  color: var(--dark-color);
+}
+.footer-link:hover {
+  color: var(--primary-accent-color);
+}
 
 @media (max-width: 768px) {
   .hero {
@@ -109,6 +127,9 @@ a:hover {
   .place-picture {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .footer {
+    margin-top: 40px;
   }
 }
 
