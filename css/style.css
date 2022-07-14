@@ -49,9 +49,10 @@ a:hover {
 .hero-home {
   background: url(/images/suffolk-framlingham.jpg) center no-repeat;
 }
-.hero h1 {
+h1 {
   font-size: 40pt;
   line-height: 1.5;
+  opacity: 0.8;
 }
 .hero p {
   font-size: 16pt;
