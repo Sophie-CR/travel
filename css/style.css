@@ -39,13 +39,15 @@ a:hover {
   background-color: var(--light-color);
 }
 .hero {
+  padding-top: 60px;
+  text-align: center;
+}
+.hero-home {
   background: url(/images/suffolk-framlingham.jpg) center no-repeat;
   color: var(--dark-color);
-  padding-top: 60px;
   padding-bottom: 400px;
   padding-left: 10px;
   padding-right: 10px;
-  text-align: center;
 }
 .hero h1 {
   font-size: 40pt;
