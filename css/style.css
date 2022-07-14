@@ -116,8 +116,19 @@ a:hover {
   color: var(--primary-accent-color);
 }
 
+.hero-about {
+  background: url(/images/suffolk-trimley-marshes-02.jpg) center no-repeat;
+  color: var(--dark-color);
+  padding-bottom: 400px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
-  .hero {
+  .hero-home {
     background: url(/images/suffolk-framlingham-2.jpg) center no-repeat;
     padding-top: 90px;
     padding-bottom: 325px;
@@ -139,5 +150,9 @@ a:hover {
   .square-photos-row {
     margin-top: 50px;
     margin-bottom: 60px;
+  }
+  .about-me {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
