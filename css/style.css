@@ -39,15 +39,15 @@ a:hover {
   background-color: var(--light-color);
 }
 .hero {
+  color: var(--dark-color);
   padding-top: 60px;
+  padding-bottom: 400px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 }
 .hero-home {
   background: url(/images/suffolk-framlingham.jpg) center no-repeat;
-  color: var(--dark-color);
-  padding-bottom: 400px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 .hero h1 {
   font-size: 40pt;
@@ -115,18 +115,27 @@ a:hover {
 .footer-link:hover {
   color: var(--primary-accent-color);
 }
-
 .hero-about {
   background: url(/images/suffolk-trimley-marshes-02.jpg) center no-repeat;
-  color: var(--dark-color);
-  padding-bottom: 400px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 .contact {
   text-align: center;
 }
-
+.hero-london {
+  background: url(/images/london-hampstead-heath-view.jpg) center no-repeat;
+}
+.hero-suffolk {
+  background: url(/images/suffolk-felixstowe-pier-02.jpg) center no-repeat;
+}
+.hero-florida {
+  background: url(/images/fl-pinellas-weedon-island.jpg) center no-repeat;
+}
+.hero-croatia {
+  background: url(/images/croatia-split-marina-view.jpg) center no-repeat;
+}
+.hero-estonia {
+  background: url(/images/estonia-tallinn-aerial.jpg) center no-repeat;
+}
 @media (max-width: 768px) {
   .hero-home {
     background: url(/images/suffolk-framlingham-2.jpg) center no-repeat;
