@@ -78,10 +78,10 @@ h1 {
   margin-top: 5px;
 }
 
-.description {
+.box {
   position: relative;
 }
-.description-content {
+.box-content {
   max-width: 100%;
   position: relative;
   top: 50%;
