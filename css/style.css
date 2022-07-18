@@ -29,6 +29,9 @@ img,
 .btn {
   border-radius: var(--radius);
 }
+a {
+  color: var(--secondary-color);
+}
 a:hover {
   transition-duration: var(--transition);
 }
