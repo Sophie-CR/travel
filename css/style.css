@@ -144,11 +144,12 @@ h1 {
 .place-row {
   margin-bottom: 20px;
 }
+
 .place-hr {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
-  width: 90%;
+  width: 93%;
 }
 
 @media (max-width: 768px) {
@@ -164,6 +165,15 @@ h1 {
   .place-picture {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .montage-box {
+    position: relative;
+  }
+  .montage-box-content {
+    position: relative;
+    max-width: fit-content;
+    left: 50%;
+    transform: translatex(-50%);
   }
   .montage-row,
   .place-row {
