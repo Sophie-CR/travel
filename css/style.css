@@ -140,6 +140,17 @@ h1 {
 .hero-estonia {
   background: url(/images/estonia-tallinn-aerial.jpg) center no-repeat;
 }
+.montage-row,
+.place-row {
+  margin-bottom: 20px;
+}
+.place-hr {
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  width: 90%;
+}
+
 @media (max-width: 768px) {
   .hero-home {
     background: url(/images/suffolk-framlingham-2.jpg) center no-repeat;
@@ -154,7 +165,15 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .montage-row,
+  .place-row {
+    margin-bottom: 10px;
+  }
+  .montage-picture {
+    max-width: 140px;
+  }
   .footer {
+    font-size: 9pt;
     margin-top: 40px;
   }
 }
@@ -167,5 +186,8 @@ h1 {
   .about-me {
     margin-left: 10%;
     margin-right: 10%;
+  }
+  .place-hr {
+    display: none;
   }
 }
